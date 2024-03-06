@@ -3,7 +3,6 @@
 * Print each person’s name by accessing each element in the list, one at a time.
 */
 
-
 /*
 * @author Huzaifa Ahmed
 * Programming Language TypeScript

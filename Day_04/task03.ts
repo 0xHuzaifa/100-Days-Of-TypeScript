@@ -16,3 +16,4 @@ let name: string[] = ['Huzaifa', 'Shuja', 'Moiz', 'Faraz', 'Bilal'];
 for (let i = 0; i < name.length; i++) {
     console.log(`Hello ${name[i]}, How are you?`);
 }
+
