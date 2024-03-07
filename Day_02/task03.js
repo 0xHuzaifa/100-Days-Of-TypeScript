@@ -13,4 +13,4 @@ console.log(personName.toLocaleLowerCase().replace(/(^|\s)\S/g, word => word.toU
 * (^|\s): Match the beginning of the string (^) or any whitespace character (\s).
 * \S: Match any non-whitespace character (i.e., the first letter of each word).
 * /g: Perform a global search to match all occurrences.
-*/ 
+*/
