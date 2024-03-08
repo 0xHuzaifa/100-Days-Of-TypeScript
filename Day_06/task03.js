@@ -22,6 +22,7 @@
 • Sort to change your array so it’s stored in reverse alphabetical order. Print the list to show that its order has changed.
 */
 Object.defineProperty(exports, "__esModule", { value: true });
+// Store some places name in array
 let places = ["Pakistan", "USA", "Japan", "North Korea", "Switzerland"];
 // Print your array in its original order.
 console.log("Original Order", places);
@@ -38,6 +39,6 @@ console.log("Reverse Order", places.reverse());
 // Reverse the order of your list again. Print the list to show it’s back to its original order.
 console.log("Reverse Order Again", places.reverse());
 // Sort your array so it’s stored in alphabetical order. Print the array to show that its order has been changed.
-console.log("Reverse Order Again", places.sort());
+console.log("Alphabetical Order", places.sort());
 // Sort to change your array so it’s stored in reverse alphabetical order. Print the list to show that its order has changed.
-console.log("Reverse Order Again", places.sort().reverse());
+console.log("Reverse Alphabetical Order", places.sort().reverse());
