@@ -8,47 +8,44 @@
 */
 Object.defineProperty(exports, "__esModule", { value: true });
 // Method 01
-// let person = {
-//     name: "Huzaifa",
-//     age: 22,
-//     city: "Nawabshah",
-//     isStudent: true
-// }
-// console.log(person.name);
-// console.log(person.age);
-// console.log(person.city);
-// console.log(person.isStudent);
+let person = {
+    name: "Huzaifa",
+    age: 22,
+    city: "Nawabshah",
+    isStudent: true
+};
+console.log(person.name);
+console.log(person.age);
+console.log(person.city);
+console.log(person.isStudent);
 // // Method 02
-// let book: {title: string, author: string, yearPublished: number} = {
-//     title: "The Hobbit",
-//     author: "J.R.R Tolkien",
-//     yearPublished: 1937
-// };
-// console.log(`Book Info: ${book.title} by ${book.author}, published in ${book.yearPublished}`);
+let book = {
+    title: "The Hobbit",
+    author: "J.R.R Tolkien",
+    yearPublished: 1937
+};
+console.log(`Book Info: ${book.title} by ${book.author}, published in ${book.yearPublished}`);
 // Method 03
-// class Course {
-//     courseName: string;
-//     completingYear: number;
-//     mentor: string;
-//     constructor(courseName: string, completingYear: number, mentor: string){
-//         this.courseName = courseName;
-//         this.completingYear = completingYear;
-//         this.mentor = mentor;
-//     }
-//     // Method
-//     greet() {
-//         console.log(`This ${this.courseName} course is designed by ${this.mentor}, and you can complete this course in ${this.completingYear} year`);
-//     }
-// }
-// // Creating an object of the Course class
-// const course1 = new Course("GenAi", 1, "Zia Khan");
-// const course2 = new Course("Crypto", 1, "Waqar Zaka")
-// console.log(course1.courseName);
-// console.log(course1.completingYear);
-// console.log(course1.mentor);
-// // Calling method
-// course1.greet()
-// course2.greet()
+class Course {
+    constructor(courseName, completingYear, mentor) {
+        this.courseName = courseName;
+        this.completingYear = completingYear;
+        this.mentor = mentor;
+    }
+    // Method
+    greet() {
+        console.log(`This ${this.courseName} course is designed by ${this.mentor}, and you can complete this course in ${this.completingYear} year`);
+    }
+}
+// Creating an object of the Course class
+const course1 = new Course("GenAi", 1, "Zia Khan");
+const course2 = new Course("Crypto", 1, "Waqar Zaka");
+console.log(course1.courseName);
+console.log(course1.completingYear);
+console.log(course1.mentor);
+// Calling method
+course1.greet();
+course2.greet();
 // Method 04
 const countries = {
     "USA": {
