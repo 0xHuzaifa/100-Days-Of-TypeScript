@@ -28,4 +28,3 @@ guest.push("Bilal"); // add guest at end
 for (let i = 0; i < guest.length; i++) {
     console.log(`Hello ${guest[i]}, you are invited to the dinner`);    
 }
-
