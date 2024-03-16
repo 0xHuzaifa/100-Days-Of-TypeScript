@@ -1,11 +1,9 @@
-"use strict";
 /*
 * Question 17: Shrinking Guest List: Unfortunately, your new table won’t arrive in time, and you can only invite two guests.
 
 * Explain & TIP: Sometimes plans change, and you'll need to adjust your guest list.
 * Removing guests from your list is straightforward but should be done thoughtfully.
 */
-Object.defineProperty(exports, "__esModule", { value: true });
 const guest = ["Hamza", "Haris", "Mudassir"];
 for (let i = 0; i < guest.length; i++) {
     console.log(`Hello ${guest[i]}, you are invited to the dinner`);
@@ -43,4 +41,5 @@ for (let i = 0; i <= guest.length; i++) {
 for (let i = 0; i < guest.length; i++) {
     console.log(`Hello ${guest[i]}, you are invited to the dinner`);
 }
+export {};
 /////////////

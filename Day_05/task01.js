@@ -1,11 +1,9 @@
-"use strict";
 /*
 * Question 13:** Your Own Array: Think of your favorite mode of transportation,
 * such as a motorcycle or a car, and make a list that stores several examples.
 * Use your list to print a series of statements about these items,
 * such as “I would like to own a Honda motorcycle.”
 */
-Object.defineProperty(exports, "__esModule", { value: true });
 // we store vehicles name in an array transportation
 const transportation = ["SRT", "Mustang", "Ford", "Kawasaki", "RoyalRoyce"];
 // we use for loop to print each array element
@@ -31,3 +29,4 @@ for (let i = 0; i < transportation.length; i++) {
             break;
     }
 }
+export {};
