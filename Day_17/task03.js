@@ -9,7 +9,7 @@ function simpleFunction() {
     console.log(`This is a simple function declaration`);
 }
 const arrowFunction = () => {
-    console.log(`This is arrow function`);
+    console.log(`This is arrow function declaration`);
 };
 simpleFunction();
 arrowFunction();
