@@ -21,15 +21,15 @@ class UserProfile {
 const userOne = new UserProfile("Huzaifa", 22);
 console.log("Username", userOne.getName());
 console.log("Age", userOne.getAge());
-export {};
 // Method 2
-// const userProfile = (() => {
-//     const name: string = "Huzaifa";
-//     const age: number = 22;
-//     return({
-//         displayInfo: function() {
-//             console.log(`Username: ${name}, Age: ${age}`);
-//         }
-//     })
-// })();
-// userProfile.displayInfo();
+const userProfile = (() => {
+    const name = "Huzaifa";
+    const age = 22;
+    return ({
+        displayInfo: function () {
+            console.log(`Username: ${name}, Age: ${age}`);
+        }
+    });
+})();
+userProfile.displayInfo();
+export {};
