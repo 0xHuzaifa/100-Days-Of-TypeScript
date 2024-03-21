@@ -6,6 +6,8 @@
 * This program makes that magic box for you!
 */
 
+// Method 1
+
 class customNumber {
     private readonly specificNumber;
 
@@ -19,6 +21,18 @@ class customNumber {
 }
 
 const magicBox = new customNumber(5); // Create a custom adder with a special number of 5
-console.log(magicBox.add(5)); // Output: 10 (5 + 5)
-console.log(magicBox.add(9)); // Output: 14 (9 + 5)
+console.log(magicBox.add(5)); 
+console.log(magicBox.add(9)); 
 
+
+// Method 2
+
+function makeAddr(valueToAdd: number): (add: number) => number {
+    return function(add: number): number {
+        return add + valueToAdd;
+    }
+}
+
+const addFive = makeAddr(5);
+console.log(addFive(5));
+console.log(addFive(9));
