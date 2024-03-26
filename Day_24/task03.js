@@ -18,6 +18,6 @@ const outsideConst = "Im outside";
 }
 console.log(outsideLet);
 console.log(outsideConst);
-console.log(insideLet);
-console.log(insideConst);
 export {};
+// console.log(insideLet);
+// console.log(insideConst);
