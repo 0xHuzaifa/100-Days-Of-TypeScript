@@ -9,5 +9,8 @@
   },
   "keywords": [],
   "author": "Huzaifa",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^5.4.3"
+  }
 }
