@@ -19,7 +19,7 @@ let car2 = {
     color: 'Black'
 }
 
-function show(obj: any) {
+function show(obj: { [key: string]: any}) {
     for (const key in obj) {
         if (Object.prototype.hasOwnProperty.call(obj, key)) {
             const value = obj[key];
