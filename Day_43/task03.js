@@ -10,10 +10,10 @@ const traditionalVsArrow = {
     traditionalFunction: function () {
         console.log(`Traditional function: ${this.name}`);
     },
-    arrowFunction: () => {
-        console.log(`Arrow function: ${this.name}`);
-    }
+    // arrowFunction: () => {
+    //     console.log(`Arrow function: ${this.name}`);
+    // }
 };
 traditionalVsArrow.traditionalFunction();
-traditionalVsArrow.arrowFunction();
 export {};
+// traditionalVsArrow.arrowFunction()
