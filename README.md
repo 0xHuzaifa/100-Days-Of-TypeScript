@@ -28,6 +28,8 @@ Are you ready to embark on this 100-day journey? Remember, the path to becoming 
 
 ### 📅 Start Date: [02/03/2024]
 
+I am also actively following this repository: [100 Days of Code by AsharibAli](https://github.com/AsharibAli/100-days-of-code/tree/main), which serves as an excellent resource for learning and improving my coding skills.
+
 Happy Coding, and see you at the finish line! 🏁 Please Star the Repository 🌟
 
 \#100DaysOfCode #CodeToLearn #LearningJourney
