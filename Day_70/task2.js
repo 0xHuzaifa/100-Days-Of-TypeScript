@@ -2,11 +2,12 @@
  * INTERFACE METHOD AND PARAMETERS *
  ***********************************/
 // Create an object that adheres to the 'Person' interface
-var huzaifa = {
+const huzaifa = {
     name: "Huzaifa",
     age: 24,
-    greet: function (message) {
-        console.log("".concat(this.name, " is saying ").concat(message));
+    greet(message) {
+        console.log(`${this.name} is saying ${message}`);
     }
 };
 huzaifa.greet("Hello World!");
+export {};

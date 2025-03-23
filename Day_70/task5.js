@@ -1,27 +1,27 @@
 /******************************
  * INTERFACE VS. TYPE ALIASES *
  ******************************/
-var Labrador = /** @class */ (function () {
-    function Labrador() {
+class Labrador {
+    constructor() {
         this.type = "dog";
     }
-    Labrador.prototype.bark = function () {
+    bark() {
         console.log("woof!");
-    };
-    return Labrador;
-}());
-var labrador = new Labrador();
+    }
+}
+const labrador = new Labrador();
 console.log(labrador.type);
 labrador.bark();
-var Gorilla = {
+const Gorilla = {
     type: "monkey",
-    bark: function () {
+    bark() {
         console.log("Ouou aa aa!!");
     },
 };
 console.log(Gorilla.type);
 Gorilla.bark();
-var myCar = {
+const myCar = {
     brand: "SRT",
     model: '1997'
 };
+export {};
